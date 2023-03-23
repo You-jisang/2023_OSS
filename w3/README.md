@@ -20,19 +20,28 @@
 
 ##### 주요 git 명령어
 
-* add:
-
-* commit
-
-* branch
-
-* merge
-
-* status
-
-* log 
-    * 예)
-
+* init : .git 초기화
+* add: `untracked` 파일을 `tracked` 로 변경 -> 동시에 `stage`로 변경, 이미 
+`tracked` 이고 `modified` 인 경우 `staged`로 변경
+    * git add . : 모든 파일 변경
+* commit : `staged` 된 파일만 커밋할 수 있음
+    * 커밋 메시지 입력 : git commit -m "의미있는 메시지" or git commit 후 
+편집기에서 입력
+* branch : 브랜치 보기
+* merge : 브랜치 합병
+* diff : 수정했지만 아직 `stage` 하지 않은 파일 들을 비교   
+* log : 커밋한 이력을 보여줌, 최근 커밋이 위에 표시
+    * 예) git log --oneline --decorate --graph --all : 로그에 브랜치가 잘 
+나타나게 표시
+    * 예) git log --oneline -n -3
+* push : `github` 에서 `clone` 한 소스를 커밋한 후 원격저장로 푸시
+---
+* 과제 하면서 찾은 명령어
+* git push origin +main : `push` 할 때 `! [rejected] master -> master 
+(fetch first)` 에러 해결
+* git remote add origin 원격저장소URL : 레파지토리 연결
+> 출처 : https://donggu1105.tistory.com/104
+         https://curryyou.tistory.com/427
 ---
 
 ### 2주차 숙제
@@ -92,13 +101,9 @@ echo $LAST_LINE
 ### 강조
 
 *single asterisks*
-
 _single underscores_ 
-
 **double asterisks** 
-
 __double underscores__ 
-
 ~~cancelline~~
 
 
