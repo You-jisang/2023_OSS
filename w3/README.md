@@ -1,20 +1,21 @@
 # 2023_OSS
 ## 2023_OSS 수업
+
 ---
 
 ### 3주차 git
 
 ### 이미지
 
-![항공대 로고](https://github.com/You-jisang/2023_OSS/blob/main/img/kau/kau%20(1).png)
+![항공대 로고](https://github.com/You-jisang/2023_OSS/blob/main/img/kau/kau%20(1).png "한국항공대학교")
 
 ### 링크
 
-[LMS](https://lms.kau.ac.kr/)
+[LMS](https://lms.kau.ac.kr/ "LMS")
 
 #### ProGit 링크
 
-[ProGit](https://git-scm.com/book/ko/v2)
+[ProGit](https://git-scm.com/book/ko/v2 "ProGit")
 
 
 ##### 주요 git 명령어
@@ -30,7 +31,7 @@
 * status
 
 * log 
-* 예)
+    * 예)
 
 ---
 
@@ -84,15 +85,20 @@ echo $LAST_LINE
 ---
 * 빨강
     - 녹색
-	+ 파랑	
+        + 파랑	
+
 
 
 ### 강조
 
 *single asterisks*
+
 _single underscores_ 
+
 **double asterisks** 
+
 __double underscores__ 
+
 ~~cancelline~~
 
 
