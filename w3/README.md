@@ -40,8 +40,8 @@
 * git push origin +main : `push` 할 때 `! [rejected] master -> master 
 (fetch first)` 에러 해결
 * git remote add origin 원격저장소URL : 레파지토리 연결
-> 출처 : https://donggu1105.tistory.com/104
-         https://curryyou.tistory.com/427
+> 출처 : https://donggu1105.tistory.com/104 
+  https://curryyou.tistory.com/427
 ---
 
 ### 2주차 숙제
@@ -100,10 +100,10 @@ echo $LAST_LINE
 
 ### 강조
 
-*single asterisks*
-_single underscores_ 
-**double asterisks** 
-__double underscores__ 
+*single asterisks*<br/>
+_single underscores_<br/> 
+**double asterisks**<br/> 
+__double underscores__<br/> 
 ~~cancelline~~
 
 
