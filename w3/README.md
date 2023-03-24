@@ -50,8 +50,8 @@ https://donggu1105.tistory.com/104<br/>https://curryyou.tistory.com/427
 
 #!/bin/sh
 
-name="유지상"
-student_id=2020125044
+name=" "
+student_id=" "
 FILE_PATH=$(find /home/kau2 -name "w2_homework.txt" 2>/dev/null)
 LINE_NUM=$(wc -l $FILE_PATH | cut -c 1)
 LAST_LINE=$(tail -n 1 $FILE_PATH)
