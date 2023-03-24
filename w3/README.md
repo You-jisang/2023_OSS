@@ -8,7 +8,7 @@
 ### 이미지
 
 ![항공대 
-로고](/Users/youjisang/projects/2023_OSS/img/kau/kau.png "한국항공대학교")
+로고](../img/kau/kau.png "한국항공대학교")
 
 ### 링크
 
