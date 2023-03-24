@@ -7,7 +7,9 @@
 
 ### 이미지
 
-![항공대 로고](https://github.com/You-jisang/2023_OSS/blob/main/img/kau/kau%20(1).png "한국항공대학교")
+![항공대 
+로고](https://github.com/You-jisang/2023_OSS/blob/main/img/kau/kau.png 
+"한국항공대학교")
 
 ### 링크
 
